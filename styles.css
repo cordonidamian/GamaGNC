@@ -1,0 +1,52 @@
+
+body {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*BARRA DE MENU*/
+
+#menu {
+    font-size: 20px;
+    
+}
+#menu:hover {
+    text-shadow: 1px 1px 2px rgb(125, 125, 125); 
+    cursor: pointer; 
+    transition: all .3s;
+}
+
+#ubicacion:hover {
+    box-shadow: 1px 1px 2px rgb(125, 125, 125); 
+    cursor: pointer; 
+    transition: all .3s;
+}
+
+
+
+
+/*CENTRO*/
+
+#titulo1 {
+    font-size: 25px;
+}
+
+#portada {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#portadaSide {
+    width: 100%;    
+}
+
+
+/*COBTACTO */
+.contact-form {
+    background: rgba(128, 128, 128, 0.205);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+
