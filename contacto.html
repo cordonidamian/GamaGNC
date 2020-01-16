@@ -5,43 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-
-    <title>GAMA GNC</title>
+    <meta name="keywords" content="gnc, instalaciones, quinta, 5ta, equipos, diagnostico">
+    <meta name="author" content="Damián Cordoni">F
+    <title>Bienvenido a GAMA GNC</title>
 </head>
 
 
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light mb-5" id="barnav">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-warning mb-5" id="barnav">
         <div class="container">
-            <a href="index.html" class="navbar-brand">GAMA GNC</a>
+            <a href="index.html" class="navbar-brand"><img src="img/logogama.png" id="logogama" class="rounded" width="150px" alt=""></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#fnav"><span
                     class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="fnav">
-                <ul class="navbar-nav mx-auto text-uppercase">
-                    <li class="nav-item" id="menu"><a class="nav-link text-secondary" href="index.html">Inicio</a></li>
-                    <li class="nav-item" id="menu"><a class="nav-link text-secondary" href="laEmpresa.html">Nosotros</a></li>
-                    <li class="nav-item" id="menu"><a class="nav-link text-secondary" href="servicios.html">Servicios</a></li>
-                    <li class="nav-item" id="menu"><a class="nav-link text-secondary" href="contacto.html">Contacto</a>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" id="menu"><a class="nav-link text-danger" href="index.html">Inicio</a></li>
+                    <li class="nav-item" id="menu"><a class="nav-link text-danger" href="laEmpresa.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item" id="menu"><a class="nav-link text-danger"
+                            href="servicios.html">Servicios</a></li>
+                    <li class="nav-item" id="menu"><a class="nav-link text-danger" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
                 <a href="https://www.google.com/maps/place/Gama+GNC/@-31.285348,-64.464306,13z/data=!4m5!3m4!1s0x0:0xafd9e5c0e8522ba8!8m2!3d-31.285348!4d-64.4643063?hl=es-419"
-                    target="_blank" class="navbar-brand mx-right"><img src="img/ubicacion.png" id="ubicacion"
+                    target="_blank" class="navbar-brand mx-right"><img id="pie" src="img/ubicacion.png" id="ubicacion"
                         alt=""></a>
             </div>
         </div>
@@ -49,17 +42,20 @@
 
 
 
-    <div class="container contact-form">
-        <h1>Formulario de Contacto</h1>
+    <div class="container contact-form rounded shadow-sm mb-3">
+        <h3 class="pt-1">Formulario de Contacto</h3>
         <hr>
 
         <div class="row">
 
             <div class="col-lg-6">
-                <div >
-                   <p id="tel" >Tel: 3541 48-0855</p> 
-                  </div>
-                <p>Email: test@gmail.com</p>                
+                <h6 class="bg-warning rounded text-light pt-1 pb-1 pl-1" style="width: 15rem;">Lun a Vie 8:30-13:30
+                    16:30-19:30</h6>
+                <div>
+                    <p id="tel">Tel: 3541 48-0855</p>
+                </div>
+
+                <p>Email: gncgama@hotmail.com </p>
                 <address class="text-muted">Liniers, Santa María de Punilla, Córdoba, Argentina</address>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13638.661790875953!2d-64.4643063!3d-31.285348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xafd9e5c0e8522ba8!2sGama%20GNC!5e0!3m2!1ses-419!2sar!4v1578880985987!5m2!1ses-419!2sar"
@@ -95,25 +91,16 @@
 
 
 
-    <nav class="nav bg-light mb-5 mt-5">
-        <div class="container">
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link text-dark" href="contacto.html"><img id="pie"
-                            src="/img/phone.png" alt=""></a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#"><img  id="pie" src="/img/facebook.png"
-                            alt=""></a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#"><img  id="pie" src="/img/email.png"
-                            alt=""></a></li>
-                <li class="nav-item"><a class="nav-link text-dark" href="#"><img  id="pie" src="/img/twiiter.png"
-                            alt=""></a></li>
-                <li class="nav-item"><a class="nav-link text-dark"
-                        href="https://www.google.com/maps/place/Gama+GNC/@-31.285348,-64.464306,13z/data=!4m5!3m4!1s0x0:0xafd9e5c0e8522ba8!8m2!3d-31.285348!4d-64.4643063?hl=es-419"
-                        target="_blank"><img src="img/ubicacion.png"></a></li>
-            </ul>
-        </div>
-    </nav>
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 

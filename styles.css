@@ -1,21 +1,31 @@
-
-body {
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
 
 /*BARRA DE MENU*/
 
-#menu {
-    font-size: 15px;
-    
+#logo {
+    width: 20%;
 }
-#menu:hover {
-    text-shadow: 1px 1px 2px rgb(125, 125, 125); 
+
+#logogama {
+    box-shadow: 1px 1px 4px rgb(255, 255, 255); 
+    padding: 5px;
+}
+
+#logogama:hover {
     cursor: pointer; 
-    transition: all .3s;
+}
+
+
+#menu {
+    font-size: 25px;
+    font-family: 'Squada One', cursive;
+}
+
+
+
+#menu:hover {
+    cursor: pointer; 
+
 }
 
 #ubicacion:hover {
@@ -23,13 +33,6 @@ body {
     cursor: pointer; 
     transition: all .3s;
 }
-
-#tel {
-    font-size: 18px;
-    font-weight: bold;
-    vertical-align: center;
-}
-
 
 
 /*CENTRO*/
@@ -41,11 +44,12 @@ body {
 #portada {
     width: 100%;
     margin-bottom: 20px;
-    margin-top: 80px;
-}
+    margin-top: 80px;}
+
+
 
 #portadaSide {
-    width: 100%;    
+    width: 100%;        
 }
 
 
@@ -67,3 +71,16 @@ body {
 #pie {
     width: 25px;
 }
+
+#pie:hover {
+    filter: contrast(10%) sepia(1) hue-rotate(20deg) saturate(1000%);
+}
+
+
+#slide {
+    width: 70%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
